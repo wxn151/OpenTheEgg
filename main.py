@@ -5,8 +5,6 @@ import pytz
 ####################
 import sys
 import time
-import random
-import threading
 import datetime
 import random
 
