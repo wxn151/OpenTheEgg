@@ -43,7 +43,7 @@ class Frame(Animate):
     def __init__(self):
         self.sprites = ["frame0.gif", "frame1.gif", "frame2.gif", "frame3.gif"]
         self.time = 0
-        self._frame_time = 0.00284
+        self._frame_time = 0.00484
         self.value = 0
         self.here = datetime.datetime.now().strftime('%d/%m/%y %H:%M')
         self.japan = datetime.datetime.now(tz=pytz.timezone('Asia/Tokyo')).strftime('%d/%m/%y %H:%M')  # for Japan time zone
